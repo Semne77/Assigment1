@@ -1,7 +1,3 @@
-""" This was my first Coding project. It is a Python program that implements
-a two-player Connect Four game. The game is played on a 7x6 grid (7 columns and 6 rows) where players 
-take turns dropping their tokens into columns. The objective is to connect four of their tokens either vertically,
-horizontally or diagonally before the opponent does."""
 def setup(): # Set up the board
     b=[[],[],[],[],[],[]]
     for j in range(7): # j is the index for the columns (files)
